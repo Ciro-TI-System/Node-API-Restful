@@ -1,0 +1,21 @@
+{
+  "name": "node-api-restful",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "RESTful API with Node.js without external frameworks or libraries.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ciro-TI-System/Node-API-Restful.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ciro-TI-System/Node-API-Restful/issues"
+  },
+  "homepage": "https://github.com/Ciro-TI-System/Node-API-Restful#readme"
+}
