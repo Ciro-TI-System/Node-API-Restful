@@ -1,5 +1,6 @@
 # Node-API-Restful
-## RESTful API with Node.js without external frameworks or libraries.
+
+### RESTful API with Node.js without external frameworks or libraries.
 
 </br></br>
 
@@ -8,9 +9,9 @@
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - NodeJS
-- 
-- Server.js (Comando: `node src/server.js`) e acesse o endereço:
-`http://localhost:3333`
+-
+- Server.js (Comando: `node --watch src/server.js`) e acesse o endereço:
+  `http://localhost:3333`
 - HTTPIE (Comando: `http localhost:3333`)
 
 </br></br>
@@ -25,7 +26,9 @@ Esse projeto foi construído na aula de 'Consumo de API e performance no ReactJS
 
 2. Rode o comando `npm init -y` para instalar as dependências;
 
-3. Para usar importações será necessário mudar o padrão do tipo server.js acrescentando essa linha no script: ` "type": "module",`.
+3. Para usar importações será necessário mudar o padrão do tipo server.js acrescentando essa linha no script: `"type": "module",`.
+
+4. Para facilitar a execução do processo basta acrescentar ao `package.json` o seguinte script: `"dev": "node --watch src/server.js"` e rodar: `npm run dev`.
 
 </br></br>
 
