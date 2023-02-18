@@ -5,7 +5,6 @@
 
 import { Readable, Writable, Transform } from 'node:stream'
 
-
 class OneToHundredStream extends Readable {
   index = 1
 
@@ -39,8 +38,6 @@ class MultiplyByTenStream extends Writable {
   }
 }
 
-
-new OneToHundredStream()//Reading
-  // .pipe(process.stdout)
-  .pipe(new InverseNumberStream())//Transformation/Intermediary
-  .pipe(new MultiplyByTenStream())//Writing
+new OneToHundredStream()
+  .pipe(new InverseNumberStream())
+  .pipe(new MultiplyByTenStream())
