@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Ciro-TI-System/Node-API-Restful/issues"
   },
-  "homepage": "https://github.com/Ciro-TI-System/Node-API-Restful#readme"
+  "homepage": "https://github.com/Ciro-TI-System/Node-API-Restful#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.0"
+  }
 }
