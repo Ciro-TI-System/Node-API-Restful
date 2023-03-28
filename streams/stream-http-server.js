@@ -15,6 +15,7 @@ class InverseNumberStream extends Transform {
 // res => WritableStream
 
 const server = http.createServer((req, res) => {
+
   return req
     .pipe(new InverseNumberStream())
     .pipe(res)
