@@ -1,9 +1,1 @@
-{
-  "users": [
-    {
-      "id": 1,
-      "name": "Ciro Batista da Silva",
-      "email": "cirofight@gmail.com"
-    }
-  ]
-}
+{"users":[{"id":"8cd709aa-0d2e-47ac-b549-fd23ad7bddcd","name":"Ciro Batista da Silva","email":"cirofight@gmail.com"},{"id":"409197d1-0515-4096-9a38-e1f8d24b2972","name":"Kely Cristina da Silva Batista","email":"kelycsb@gmail.com"}]}
