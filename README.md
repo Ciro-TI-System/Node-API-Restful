@@ -8,11 +8,13 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- NodeJS
--
-- Server.js (Comando: `node --watch src/server.js`) e acesse o endereço:
-  `http://localhost:3333`
-- HTTPIE (Comando: `http localhost:3333`)
+- NodeJS: ( `crypto: ramdomUUID, http: http, fs/promises: fs` )
+- Middlewares
+- Buffers
+- Streams ( `Readable, Writable, Transform` )
+- JSON Database
+- HTTPIE ( Comando: `http localhost:3333` )
+- Server.js ( Comando: `node --watch src/server.js` ) e acesse o endereço: ( `http://localhost:3333` )
 
 </br></br>
 
@@ -28,7 +30,7 @@ Esse projeto foi construído na aula de 'Consumo de API e performance no ReactJS
 
 3. Para usar importações será necessário mudar o padrão do tipo server.js acrescentando essa linha no script: `"type": "module",`.
 
-4. Para facilitar a execução do processo basta acrescentar ao `package.json` o seguinte script: `"dev": "node --watch src/server.js"` e rodar: `npm run dev`.
+4. Para facilitar a execução do processo basta acrescentar ao `package.json` o seguinte script: `"dev": "node --no-warnings --watch src/server.js"` e rodar: `npm run dev`.
 
 </br></br>
 
