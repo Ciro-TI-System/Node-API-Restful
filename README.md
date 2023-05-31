@@ -1,6 +1,10 @@
-# Node-API-Restful
+# 💻 Node-API-Restful
 
-### RESTful API with Node.js without external frameworks or libraries.
+<p>Desenvolvimento de uma API RESTful com Node.js focada nos fundamentos da tecnologia, sem frameworks ou bibliotecas externas.</p>
+
+Utilizando módulos internos do Node.js como HTTP, Crypto e File System e fundamentos HTTP como: `requests, respondes, headers, status code, route e query parameters, etc`.
+
+<p>Aplicando também Streams no Node.js e realizando operações assíncronas e parciais no back-end.</p>
 
 </br></br>
 
@@ -13,14 +17,17 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Buffers
 - Streams ( `Readable, Writable, Transform` )
 - JSON Database
+- RegEx
 - HTTPIE ( Comando: `http localhost:3333` )
 - Server.js ( Comando: `node --watch src/server.js` ) e acesse o endereço: ( `http://localhost:3333` )
 
 </br></br>
 
-## 💻 Projeto
+# 💻 Finalidade do projeto
 
-Esse projeto foi construído na aula de 'Consumo de API e performance no ReactJS' da Rocketseat.
+## `Consumo de API e performance no ReactJS`
+
+</br>
 
 ## Como utilizar?
 
